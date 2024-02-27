@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #00ff00; /* Green text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0f0f0f; /* Dark gray */
+    border: 1px solid #00ff00; /* Green border */
+    border-radius: 5px;
+}
+
+.hack-simulation {
+    background-color: #1a1a1a; /* Darker gray */
+    border: 1px solid #00ff00;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.education-section {
+    margin-bottom: 20px;
+}
+
+
+
+.disclaimer {
+    font-style: italic;
+    color: #666;
+}
+
+/* Rest of your CSS styles */
+
+/* Styling for falling text */
+.falling-text-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.falling-text {
+    position: absolute;
+    color: #00ff00; /* Green text */
+    font-size: 16px;
+    animation: fall 10s linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10vh);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
