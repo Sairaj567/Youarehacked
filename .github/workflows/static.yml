@@ -3,45 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>You Are Awesome</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: black;
-            font-family: 'Courier New', monospace;
-            color: limegreen;
-        }
-        
-        .message {
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.8); /* Black background color with some opacity */
-            padding: 20px;
-            border-radius: 10px;
-        }
-        
-        .awesome-text {
-            font-weight: bold;
-            font-size: 36px;
-        }
-    </style>
+    <title>Simulated Hacking Experience</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <div class="message">
-        <pre>
-    _____
-    /     \
-    | () () |
-    \  ^  /
-    |||||
-    |||||
-        </pre>
-        <p class="awesome-text">You are Hacked!!!!!
+    <div class="falling-text-container"></div>
+    <div class="container">
+        <h1>Warning: Your Device Has Been Compromised!</h1>
+        <div class="hack-simulation">
+            <!-- Simulated hacking experience -->
+            <p>Your device has been infected with malware.</p>
+            <p>Your personal information may be at risk.</p>
+            <p>Please take immediate action to protect your device.</p>
+        </div>
+        <div class="education-section">
+            <h2>What to Do Now:</h2>
+            <ul>
+                <li>Do not panic. This is a simulated experience for educational purposes.</li>
+                <li>Learn about QR code security risks and how to protect yourself.</li>
+                <li>Only scan QR codes from trusted sources.</li>
+                <li>Keep your device's software up to date.</li>
+                <li>Install reputable security software on your device.</li>
+            </ul>
+            <p>Spread awareness by sharing this experience with others.</p>
+        </div>
+        <div class="disclaimer">
+            <p>This is a simulated experience created for educational purposes only. No actual hacking has occurred.</p>
+        </div>
     </div>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
 </body>
 </html>
-
