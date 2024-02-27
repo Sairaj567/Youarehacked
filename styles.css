@@ -33,9 +33,6 @@ body {
     color: #666;
 }
 
-/* Rest of your CSS styles */
-
-/* Styling for falling text */
 .falling-text-container {
     position: fixed;
     top: 0;
@@ -51,7 +48,7 @@ body {
     position: absolute;
     color: #00ff00; /* Green text */
     font-size: 16px;
-    animation: fall 10s linear infinite;
+    animation: fall 5s linear infinite;
 }
 
 @keyframes fall {
@@ -60,8 +57,7 @@ body {
         opacity: 1;
     }
     100% {
-        transform: translateY(100vh);
+        transform: translateY(110vh); /* Adjusted to fall outside the viewport */
         opacity: 0;
     }
 }
-
